@@ -1,0 +1,168 @@
+BODY {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #ffffff; HEIGHT: 100%
+}
+HTML {
+	HEIGHT: 100%
+}
+#container {
+	POSITION: relative; TEXT-ALIGN: left; MARGIN: 0px auto; MIN-HEIGHT: 100%; WIDTH: 100%
+}
+body1 {
+	
+}
+#navbar {
+	MARGIN: 0px 0px 10px
+}
+#navbar TD {
+	BORDER-BOTTOM: #a9d0f5 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #a9d0f5 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #eff5fb; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; FONT-FAMILY: Verdana, Tahoma, sans-serif; WHITE-SPACE: nowrap; FONT-SIZE: 8pt; BORDER-TOP: #a9d0f5 1px solid; BORDER-RIGHT: #a9d0f5 1px solid; PADDING-TOP: 2px
+}
+#navbar A {
+	COLOR: #006699; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+#navbar A:hover {
+	COLOR:#3CF; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+#header {
+	MARGIN-BOTTOM: 5px; BACKGROUND: #ffffff; HEIGHT: 50px
+}
+#mainContent {
+	MARGIN-BOTTOM: 5px; HEIGHT: auto
+}
+#lsidebar {
+	BORDER-BOTTOM: #a9d0f5 1px solid; BORDER-LEFT: #a9d0f5 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #eff5fb; PADDING-LEFT: 0px; WIDTH: 200px; PADDING-RIGHT: 0px; FLOAT: left; HEIGHT: auto; BORDER-TOP: #a9d0f5 1px solid; BORDER-RIGHT: #a9d0f5 1px solid; PADDING-TOP: 0px
+}
+#lsidebar UL {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 1px; LIST-STYLE-TYPE: none; TEXT-INDENT: 20px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; FONT: bold 13px/250% Verdana, Arial, Helvetica, sans-serif; LETTER-SPACING: 1px; PADDING-TOP: 1px
+}
+#rsidebar {
+	WIDTH: 150px; BACKGROUND: #eff5fb; FLOAT: right; HEIGHT: auto
+}
+#content {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 0px; MARGIN: 0px 205px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; BACKGROUND: #ffffff; HEIGHT: auto; PADDING-TOP: 15px
+}
+#footer {
+	BORDER-BOTTOM: #a9d0f5 1px solid; POSITION: absolute; BORDER-LEFT: #a9d0f5 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #eff5fb; PADDING-LEFT: 1em; WIDTH: 97%; BOTTOM: 10px; PADDING-RIGHT: 1em; CLEAR: both; BORDER-TOP: #a9d0f5 1px solid; BORDER-RIGHT: #a9d0f5 1px solid; PADDING-TOP: 2px
+}
+#footer P {
+	TEXT-ALIGN: center; MARGIN: 0px; FONT: 9px Verdana, Arial, Helvetica, sans-serif; COLOR: #006699
+}
+DIV .left {
+	FLOAT: left
+}
+DIV .right {
+	FLOAT: right
+}
+#separator {
+	CLEAR: both
+}
+H1 {
+	FONT: bold 1.9em serif; COLOR: #084b8a
+}
+H2 {
+	FONT: bold 1.2em serif; COLOR: #084b8a
+}
+H3 {
+	TEXT-ALIGN: center; FONT: bold 1.2em serif; COLOR: #084b8a
+}
+#header {
+	
+}
+H4 {
+	TEXT-ALIGN: center; FONT: bold 1.2em sans-serif; COLOR: #084b8a
+}
+UL.disc {
+	LIST-STYLE-TYPE: disc
+}
+UL.circle {
+	LIST-STYLE-TYPE: circle
+}
+UL.square {
+	LIST-STYLE-TYPE: square
+}
+UL.none {
+	LIST-STYLE-TYPE: none
+}
+DIV.resume {
+	FONT: 0.9em serif
+}
+DIV.info {
+	FONT: 1em serif
+}
+DIV.box {
+	BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; WIDTH: 200px; BACKGROUND: orange; HEIGHT: 500px; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid
+}
+DIV.pic {
+	
+}
+SPAN.subject {
+	COLOR: #006699
+}
+A {
+	COLOR: #006699; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR:#3CF; TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+.MATH {
+	FONT-FAMILY: "Century Schoolbook", serif
+}
+.MATH I {
+	FONT-STYLE: italic; FONT-FAMILY: "Century Schoolbook", serif
+}
+.BOLDMATH {
+	FONT-FAMILY: "Century Schoolbook", serif; FONT-WEIGHT: bold
+}
+SMALL.XTINY {
+	FONT-SIZE: xx-small
+}
+SMALL.TINY {
+	FONT-SIZE: x-small
+}
+SMALL.SCRIPTSIZE {
+	FONT-SIZE: smaller
+}
+SMALL.FOOTNOTESIZE {
+	FONT-SIZE: small
+}
+SMALL.SMALL {
+	
+}
+BIG.LARGE {
+	
+}
+BIG.XLARGE {
+	FONT-SIZE: large
+}
+BIG.XXLARGE {
+	FONT-SIZE: x-large
+}
+BIG.HUGE {
+	FONT-SIZE: larger
+}
+BIG.XHUGE {
+	FONT-SIZE: xx-large
+}
+H1 {
+	
+}
+H2 {
+	
+}
+H3 {
+	
+}
+H4 {
+	
+}
+H5 {
+	
+}
+DIV.displaymath {
+	
+}
+TD.eqno {
+	
+}
