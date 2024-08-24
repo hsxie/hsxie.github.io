@@ -1,7 +1,198 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+﻿<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<HTML xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Hua-sheng XIE's Homepages</title>
+	<style type="text/css">
+		p.centered {text-align: center}
+	</style>
+
+  <script type="text/javascript">
+		function getWindowHeight() {
+			var windowHeight = 0;
+			if (typeof(window.innerHeight) == 'number') {
+				windowHeight = window.innerHeight;
+			}
+			else {
+				if (document.documentElement && document.documentElement.clientHeight) {
+					windowHeight = document.documentElement.clientHeight;
+				}
+				else {
+					if (document.body && document.body.clientHeight) {
+						windowHeight = document.body.clientHeight;
+					}
+				}
+			}
+			return windowHeight;
+		}
+
+		function setFooter() {
+			if (document.getElementById) {
+				var windowHeight = getWindowHeight();
+				if (windowHeight > 0) {
+					var contentHeight = document.getElementById('content').offsetHeight;
+					var footerElement = document.getElementById('footer');
+					var footerHeight  = footerElement.offsetHeight;
+					if (windowHeight - (contentHeight + footerHeight) >= 0) {
+						footerElement.style.position = 'relative';
+						footerElement.style.top = (windowHeight - (contentHeight + footerHeight)) + 'px';
+					}
+					else {
+						footerElement.style.position = 'static';
+					}
+				}
+			}
+		}
+		window.onload = function() {
+			setFooter();
+		}
+		window.onresize = function() {
+			setFooter();
+		}
+
+		function alive()
+		{
+			var date1 = new Date('1987/11/14');
+			var date2 = new Date();
+			return parseInt((date2-date1)/1000/3600/24);
+		}
+  </script>
+
+</head>
+	
+<body bgcolor="#fffff">
+
+	<!-- navb -->
+	<div id="navbar">
+		<table width="100%">
+			<tr>
+				<td><a href="index.html">Home</a></td>
+				<td width="100%">&nbsp;</td>
+			</tr>
+		</table>
+	</div>
+	
+	<div id="container">
+		<div>
+			<div>
+			    <b><font color="red">Note: This website may not be updated timely. However, I will try to keep my <a href="./files/cv_hsxie.pdf" target="blank">CV</a> be the latest. </font></b>
+				<br>
+				<p><b>PhD thesis:</b> <a href="./files/thesis/">Numerical Simulations of Micro-turbulence in Tokamak Edge</a>, 2015.</p>
+				<p><b>Codes:</b> <a href="./codes/">List all</a>, <a href="./codes/readme_all.html" target="blank">Readme all</a>.</p>
+				<div class="left">
+					<h1>Hua-sheng XIE* （谢华生）</h1>
+					<div class="info">
+					    2018.02 - <br>
+						Chief Scientist of Fusion Simulation<br>
+						Center for Compact Fusion (CCF-ENN), Deputy Director<br>
+						ENN Science and Technology Development Co.,Ltd. [新奥科技发展有限公司（新奥能源研究院）]<br>
+						Mail: a). 河北廊坊开发区华祥路新源东道新奥科技园智能大厦，065001; <br>
+						b).
+Huaxiang Road, Economic and Technological Development Zone, LangFang Hebei, China 065001<br>
+						E-mail: xiehuasheng[at]enn.cn, huashengxie@{gmail.com, 126.com}
+						<br>Safety survived for <script type="text/javascript">document.write(alive());</script> days.<br><br>
+						* English name called by my friends: Edward Watson.
+					</div>
+				</div>
+
+				<div class="right">
+					<img src="xhs1.jpg" alt="hsxie" style="width:230px;" /><br>
+				<em><a href="http://ifts.zju.edu.cn/" target="blank">IFTS-ZJU</a>, office, 2015.09</em>
+				</div>
+			</div>
+			<!-- header -->
+
+			<div id="separator">
+				<hr color=#A9D0F5>
+			</div>
+			
+			<b><font color="red">New (2019-09-06): A new state-of-art plasma wave and instability analysis tool named 'BO'  (‘波’, i.e., 'wave' in Chinese) has been published.</font></b>
+				<br>
+			<a href="./codes/pdrk/bo_poster.pdf" target="blank"><img src="./bo_poster_191006.png" alt="BO poster" style="width:300px;" /></a><br>
+			
+Refer it as:			
+<LI>H. S. Xie, BO: A unified tool for plasma waves and instabilities analysis, Comp. Phys. Comm., 244, 343 (2019), <a href="https://doi.org/10.1016/j.cpc.2019.06.014" target="blank">https://doi.org/10.1016/j.cpc.2019.06.014</a>.</LI>
+Download:
+<LI> <a href="http://code.ennresearch.com/bo/" target="blank">http://code.ennresearch.com/bo/</a>, or <a href="http://dx.doi.org/10.17632/cvbrftzfy5.1" target="blank">http://dx.doi.org/10.17632/cvbrftzfy5.1</a>.</LI>
+			
+			<p>
+			
+			<b><font color="red">New (2018-03-01): The book <a href="./cppbook" target="blank">"Introduction to Computational Plasma Physics"</a> has been published.    </font></b>
+				<br>
+			<a href="http://cms.sciencepress.cn/2017010031/index.jhtml" target="blank"><img src="cppbook.jpg" alt="Introduction to Computational Plasma Physics (Hua-sheng XIE, 2018)" style="width:300px;" /></a><br>
+			
+Refer it as:			
+<LI>Hua-sheng XIE, Introduction to Computational Plasma Physics (in Chinese), Science Press, Beijing, 2018.</LI>
+Or:
+<LI>谢华生，计算等离子体物理导论，科学出版社，北京，2018.</LI>
+
+			
+			<h2>Resume</h2>
+			
+			<div class="resume">
+				<UL>
+					<LI><b>2015.10 - 2018.02, School of Physics, Peking University</b><br>
+					<em>Postdoc</em>
+					<br>
+					</LI><br>
+				
+					<LI><b>2010.09 - 2015.09, Institute for Fusion Theory and Simulation, Zhejiang University</b><br>
+					<em>Master & PhD</em>
+					<br>
+					</LI><br>
+					
+					<LI><b>2008.09 - 2010.07, Zhejiang University</b><br>
+					<em>Minor: Public Administration</em>
+					<br>
+					</LI><br>
+					
+					<LI><b>2006.09 - 2010.07, Zhejiang University</b><br>
+					<em>Major (B.S.): Physics</em>
+					<br>
+					</LI>
+					
+				</UL>
+			</div>
+			
+			<h2>Selected papers</h2>
+			
+			<div class="resume">
+				<OL>
+					<li><b>H. S. Xie</b>, BO: A unified tool for plasma waves and instabilities analysis,
+Computer Physics Communications, 2019, <a href="https://doi.org/10.1016/j.cpc.2019.06.014" target="blank">244, 343–371</a>.</li>
+					
+					<li><b>H. S. Xie</b>, Y. Xiao and Z. Lin, New Paradigm for Turbulent
+Transport Across a Steep Gradient in Toroidal Plasmas, Physical Review Letters, 2017,
+<a href="http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.118.095001" target="blank">118, 095001</a>.</li>
+					
+					<li><b>H. S. Xie</b> and Y. Xiao, PDRK: A General Kinetic Dispersion Relation Solver for Magnetized Plasma, Plasma Science and Technology, 2016, <a href="http://arxiv.org/abs/1410.2678" target="blank">18, 97</a>.</li>
+				
+					<li><b>H. S. Xie</b> and Y. Xiao, Unconventional ballooning structures for toroidal drift waves, Physics of Plasmas, 2015, <a href="http://dx.doi.org/10.1063/1.4931072" target="blank">22, 090703</a>.
+					
+
+					
+					
+				</OL>
+				
+			</div>
+
+
+		</div>
+		
+		<!--
+		<a href="http://xyz.freeweblogger.com/stats/1/1317631723/" target="_top"><img border="0" alt="free hit counter" src="http://xyz.freeweblogger.com/counter/index.php?u=1317631723&s=7seg" ALIGN="middle" HSPACE="4" VSPACE="2"></a><script src=http://xyz.freeweblogger.com/counter/script.php?u=1317631723></script>
+		-->
+		
+
+		<br><br><br><div id="footer">
+			<p>Since Oct. 03, 2011, Lastly Updated by Hua-sheng XIE at Sep. 06, 2019</p>
+		</div>
+
+	</div>
+	
+<!-- end container -->
 </body>
 </html>
